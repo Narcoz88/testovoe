@@ -1,0 +1,95 @@
+/**************** START RESET STYLES ****************/
+* {
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	min-height: 100%;
+	background-color: #ffffff;
+	}
+
+body {
+	min-height: 100%;
+	position:relative;
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+
+html, h1, h2, h3, h4, h5, h6, span, figure, section, aside, figcaption, article, img, ul{
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+
+p {margin-top: 0;}
+
+a, button {
+    margin: 0;
+    padding: 0;
+	text-decoration:none;
+	cursor: pointer;
+}
+
+input[type="submit"], button{
+	cursor: pointer;
+	border: none;
+}
+
+input, select {vertical-align:middle;}
+
+ul li {list-style:none;}
+
+.reset{
+	width: 100%;
+	height: 0;
+	background-color:transparent;
+	clear: both;
+}
+
+table {border-collapse: collapse;}
+
+/*убираем стрелочку в селекте*/
+select::-ms-expand {display: none;}
+
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+/*убираем стрелочку в селекте конец*/
+
+br {
+	line-height: 0 !important;
+}
+
+img {
+	display: block;
+	border: none;
+}
+
+::-webkit-input-placeholder {color: #272733;font: 1.125rem/140% "Lato", Arial, sans-serif;}
+::-moz-placeholder          {color: #272733;font: 1.125rem/140% "Lato", Arial, sans-serif;}
+:-moz-placeholder           {color: #272733;font: 1.125rem/140% "Lato", Arial, sans-serif;}
+:-ms-input-placeholder      {color: #272733;font: 1.125rem/140% "Lato", Arial, sans-serif;}
+
+.anchor {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    float: left;
+}
+
+
+/**************** END RESET STYLES ****************/
+
+
+
+
+

@@ -1,0 +1,46 @@
+.button {
+  width: 183px;
+  height: 43px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font: 0.813rem/1rem "Lato", Arial, sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  &_blue {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background-color: #3E9CDC;
+    &:hover {
+      color: #2A2B30;
+      border: 1px solid #6F6D7B;
+      background-color: #FFFFFF;
+    }
+  }
+  &_white {
+    color: #2A2B30;
+    border: 1px solid #6F6D7B;
+    background-color: #FFFFFF;
+    &:hover {
+      color: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      background-color: #3E9CDC;
+    }
+  }
+  &_mr-30 {
+    margin-right: 30px;
+    @media (max-width: 600px) {
+      margin-right: 15px;
+    }
+  }
+  &__submit {
+    display: block;
+    width: 100%;
+    max-width: 370px;
+    margin: 55px auto 0;
+  }
+}

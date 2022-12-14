@@ -1,0 +1,21 @@
+.list {
+  margin-bottom: 80px;
+  @media (max-width: 600px) {
+    margin-bottom: 40px;
+  }
+  &__item {
+    padding-left: 16px;
+    position: relative;
+    font: 1.25rem/1.5rem "Lato", Arial, sans-serif;
+    margin-bottom: 5px;
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 10px;
+      width: 5px;
+      height: 2px;
+      background-color: currentColor;
+    }
+  }
+}

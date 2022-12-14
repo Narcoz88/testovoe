@@ -1,0 +1,24 @@
+.logo {
+  text-transform: uppercase;
+  font: 1.75rem/100% "Raleway", Arial, sans-serif;
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  &:hover {
+    color: #42A9ED;
+    .logo_blue {
+      color: #ffffff;
+    }
+  }
+  &_blue {
+    color: #42A9ED;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  &_dark {
+    color: #10101D;
+    opacity: 0.9;
+  }
+}

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <meta name="Keywords" content=""/>
+    <meta name="Description" content=""/>
+    <meta name="robots" content="all"/>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" href="nativejs-select.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <!--[if lt IE 9]>
+    <script>
+        document.createElement('header');
+        document.createElement('nav');
+        document.createElement('section');
+        document.createElement('article');
+        document.createElement('aside');
+        document.createElement('footer');
+    </script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Шаблон</title>
+    <script src="index.js" defer="defer"></script>
+
+</head>
+<body>
+<input type="checkbox" id="nav-toggle" hidden>
+    <!--
+    Выдвижную панель размещаете ниже
+    флажка (checkbox), но не обязательно
+    непосредственно после него, например
+    можно и в конце страницы
+    -->
+    <nav class="nav">
+        <!--
+    Метка с именем `id` чекбокса в `for` атрибуте
+    Символ Unicode 'TRIGRAM FOR HEAVEN' (U+2630)
+    Пустой атрибут `onclick` используем для исправления бага в iOS < 6.0
+    См: http://timpietrusky.com/advanced-checkbox-hack
+    -->
+        <label for="nav-toggle" class="nav-toggle" onclick></label>
+        <!--
+    Здесь размещаете любую разметку,
+    если это меню, то скорее всего неупорядоченный список <ul>
+    -->
+        <h2 class="logo">
+            <a href="/" class="logo">LoremIpsum<span class="logo_dark">.net</span></a>
+        </h2>
+        <ul>
+            <li><a href="/business">Бизнес</a>
+            <li><a href="/aboutUs">О нас</a>
+            <li><a href="/prices">Цены</a>
+            <li><a href="/order">Оформить заказ</a>
+        </ul>
+    </nav>
+<div class="wrapper">
+    <header class="header">
+        <div class="container header__wrap">
+            <a href="/" class="logo">LoremIpsum<span class="logo_blue">.net</span></a>
+            <nav class="menu">
+                <ul class="menu-ul">
+                    <li>
+                        <a href="/business" class="menu-ul__menu-link menu-ul__menu-link_active">Бизнес</a>
+                    </li>
+                    <li>
+                        <a href="/aboutUs" class="menu-ul__menu-link">О нас</a>
+                    </li>
+                    <li>
+                        <a href="/prices" class="menu-ul__menu-link">Цены</a>
+                    </li>
+                    <li>
+                        <a href="/order" class="menu-ul__menu-link">Оформить заказ</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+	<div class="content">
+	    <div class="first-box">
+	        <div class="container">
+	            <div class="first-box__wrap">
+	                <h1 class="h1">
+                        <span class="h1__span_blue">Lorem ipsum</span> dolor sit <br> amet
+                        consectetur <span class="h1__span_blue">adipiscing</span>
+                    </h1>
+                    <div>
+                        <h4 class="h4">At vero eos et accusamus et iusto odio dignissimos ducimus!</h4>
+                        <ul class="list">
+                            <li class="list__item">Totam rem aperiam eaque ipsa</li>
+                            <li class="list__item">Sit voluptatem accusantium doloremque laudantium</li>
+                            <li class="list__item">Sed ut perspiciatis, unde omnis iste natus error</li>
+                        </ul>
+                    </div>
+                    <div class="first-box__wrap-button">
+                        <button class="button button_blue button_mr-30">Заказать</button>
+                        <button class="button button_white">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box-order">
+            <div class="container">
+                <h2 class="h2 h2__center">Оформление <span class="h2__span_blue">заказа</span></h2>
+                <p class="box-order__p">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+                <div class="scheme">
+                    <div class="scheme__item">
+                        <div class="scheme__circle">
+                            <img src="assets/images/icon-1.svg" alt="icon-1">
+                        </div>
+                        <div class="scheme__dots scheme__dots_1">
+                            <span class="scheme__dot"></span>
+                            <span class="scheme__dot"></span>
+                            <span class="scheme__dot"></span>
+                            <span class="scheme__dot"></span>
+                            <span class="scheme__dot"></span>
+                        </div>
+                        <div class="scheme__text">
+                            Lorem ipsum dolor sit amet
+                        </div>
+                    </div>
+                    <div class="scheme__item">
+                        <div class="scheme__circle">
+                            <img src="assets/images/icon-2.svg" alt="icon-2">
+                        </div>
+                        <div class="scheme__dots scheme__dots_2">
+                            <span class="scheme__dot"></span>
+                            <span class="scheme__dot"></span>
+                            <span class="scheme__dot"></span>
+                            <span class="scheme__dot"></span>
+                            <span class="scheme__dot"></span>
+                        </div>
+                        <div class="scheme__text">
+                            Сonsecteturadipiscing elit
+                        </div>
+                    </div>
+                    <div class="scheme__item">
+                        <div class="scheme__circle">
+                            <img src="assets/images/icon-3.svg" alt="icon-3">
+                        </div>
+                        <div class="scheme__dots scheme__dots_3">
+                            <span class="scheme__dot"></span>
+                            <span class="scheme__dot"></span>
+                            <span class="scheme__dot"></span>
+                            <span class="scheme__dot"></span>
+                            <span class="scheme__dot"></span>
+                        </div>
+                        <div class="scheme__text">
+                            Sed do eiusmod tempor
+                        </div>
+                    </div>
+                    <div class="scheme__item">
+                        <div class="scheme__circle">
+                            <img src="assets/images/icon-4.svg" alt="icon-4">
+                        </div>
+                        <div class="scheme__dots scheme__dots_4">
+                            <span class="scheme__dot"></span>
+                            <span class="scheme__dot"></span>
+                            <span class="scheme__dot"></span>
+                            <span class="scheme__dot"></span>
+                            <span class="scheme__dot"></span>
+                        </div>
+                        <div class="scheme__text">
+                            Esse cillum dolore eu fugiat
+                        </div>
+                    </div>
+                    <div class="scheme__item">
+                        <div class="scheme__circle">
+                            <img src="assets/images/icon-5.svg" alt="icon-5">
+                        </div>
+                        <div class="scheme__text">
+                            Excepteur sint occaecat cupidatat non proident
+                        </div>
+                    </div>
+                </div>
+                <form class="form">
+                    <div class="row">
+                        <div class="my-select">
+                            <details class="custom-select">
+                                <summary class="radios">
+                                    <input type="radio" name="item" value="0" id="default" title="Выберите тип системы" checked>
+                                    <input type="radio" name="item" value="1" id="item1" title="Item 1">
+                                    <input type="radio" name="item" value="2" id="item2" title="Item 2">
+                                    <input type="radio" name="item" value="3" id="item3" title="Item 3">
+                                    <input type="radio" name="item" value="4" id="item4" title="Item 4">
+                                    <input type="radio" name="item" value="5" id="item5" title="Item 5">
+                                    <input type="radio" name="item" value="6" id="item6" title="Item 6">
+                                    <input type="radio" name="item" value="7" id="item7" title="Item 7">
+                                    <input type="radio" name="item" value="8" id="item8" title="Item 8">
+                                    <input type="radio" name="item" value="9" id="item9" title="Item 9">
+                                    <input type="radio" name="item" value="10" id="item10" title="Item 10">
+                                </summary>
+                                <ul class="list">
+                                    <li>
+                                        <label for="item1">
+                                            Item 1
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="item2">Item 2</label>
+                                    </li>
+                                    <li>
+                                        <label for="item3">Item 3</label>
+                                    </li>
+                                    <li>
+                                        <label for="item4">Item 4</label>
+                                    </li>
+                                    <li>
+                                        <label for="item5">Item 5</label>
+                                    </li>
+                                    <li>
+                                        <label for="item6">Item 6</label>
+                                    </li>
+                                    <li>
+                                        <label for="item7">Item 7</label>
+                                    </li>
+                                    <li>
+                                        <label for="item8">Item 8</label>
+                                    </li>
+                                    <li>
+                                        <label for="item9">Item 9</label>
+                                    </li>
+                                    <li>
+                                        <label for="item10">Item 10</label>
+                                    </li>
+                                </ul>
+                            </details>
+                        </div>
+                        <input class="row__input" type="email" placeholder="Ваш e-mail" name="email">
+                        <input class="row__input" type="text" placeholder="Ваше имя" name="name">
+                    </div>
+                    <div class="row row_2-1">
+                        <div>
+                            <div class="range-text">
+                             <div>Sed ut perspiciatis, unde omnis iste natus </div><div><output id="rangevalue">75</output>%</div>
+                            </div>
+                            <input type="range" value="75" min="0" max="100" step="1" oninput="rangevalue.value=value" name="range"/>
+                        </div>
+                        <label class="input-file">
+                            <input type="file" name="file">
+                            <span>Прикрепить файл</span>
+                        </label>
+                    </div>
+                    <button class="button button__submit button_blue" type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+	<div class="footer">
+	    <div class="container">
+	        <div class="footer-wrap">
+	            <div class="copyright">
+                    © 2018 «LoremIpsum.net» Все права защищены.
+                </div>
+                <div class="separate"></div>
+                <!-- 7. В футере платежные системы - не ссылки, а контакты – ссылки. (из условий заданния. Вообще не понял о чём речь. Что имели ввиду?)-->
+                <div class="pay-systems">
+                    <a class="footer__link" href="/"><img class="footer__img" src="assets/images/qiwi.svg" alt="qiwi">Qiwi wallet</a>
+                    <a class="footer__link" href="/"><img class="footer__img" src="assets/images/yandex.svg" alt="yandex-money">Yandex Money</a>
+                    <a class="footer__link" href="/"><img class="footer__img" src="assets/images/webmoney.svg" alt="web-money">Web Money</a>
+                </div>
+                <div class="separate separate__two"></div>
+                <div class="info">
+                    <a class="footer__link footer__link_white" href="mailto:info@ipsum228.com"><img class="footer__img" src="assets/images/mail.svg" alt="mail">info@ipsum228.com</a>
+                    <a class="footer__link footer__link_white" href="/"><img class="footer__img" src="assets/images/vk.svg" alt="vk">Мы вконтакте</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
