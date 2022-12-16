@@ -27,14 +27,13 @@
       color: #FFFFFF;
       border: 1px solid #FFFFFF;
       background-color: #3E9CDC; }
-  .button_mr-30-mb-20 {
+  .button_mr {
     margin-right: 30px; }
     @media (max-width: 600px) {
-      .button_mr-30-mb-20 {
+      .button_mr {
         margin-right: 15px; } }
   @media (max-width: 600px) and (max-width: 420px) {
-    .button_mr-30-mb-20 {
-      margin-right: 15px;
+    .button_mr {
       margin-bottom: 20px; } }
 
   .button__submit {
