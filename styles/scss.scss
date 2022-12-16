@@ -1,17 +1,18 @@
-@import "fonts.css";
-@import "components/header.scss";
-@import "components/logo.scss";
-@import "components/menu.scss";
-@import "components/first-box.scss";
-@import "components/list.scss";
-@import "components/button.scss";
-@import "components/order.scss";
-@import "components/footer.scss";
-@import "components/scheme.scss";
-@import "components/form.scss";
-@import "components/range.scss";
-@import "components/select.scss";
-@import "components/input-file.scss";
+@import 'fonts.css';
+@import 'reset.css';
+@import 'components/header.scss';
+@import 'components/logo.scss';
+@import 'components/menu.scss';
+@import 'components/first-box.scss';
+@import 'components/list.scss';
+@import 'components/button.scss';
+@import 'components/order.scss';
+@import 'components/footer.scss';
+@import 'components/scheme.scss';
+@import 'components/form.scss';
+@import 'components/range.scss';
+@import 'components/select.scss';
+@import 'components/input-file.scss';
 
 body {
   font: 1rem/140% 'Lato', Arial, sans-serif;
