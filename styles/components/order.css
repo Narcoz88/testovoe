@@ -1,0 +1,13 @@
+.box-order {
+  background: #272733 url("../assets/images/order.png") center 0 no-repeat;
+  padding-top: 120px;
+  padding-bottom: 150px; }
+  @media (max-width: 600px) {
+    .box-order {
+      padding-top: 50px;
+      padding-bottom: 20px; } }
+  .box-order__p {
+    color: #BBBBBB;
+    text-align: center; }
+
+/*# sourceMappingURL=order.css.map */
